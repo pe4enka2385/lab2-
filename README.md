@@ -24,3 +24,26 @@
 # 2.3.2.2 Создал переменную окружения export MY_VAR="hello from zsh". 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2716ea34-5b0b-428b-a586-c55c2cb87f84" />
 # 2.3.2.3 Запускаем Bash из Zsh
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a40a504-7622-4872-a874-e17a13d94466" />
+# 2.3.3 fish
+# 2.3.3.1 alias в fish
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/21b76dab-222b-42bf-9135-b7ed84ba6d64" />
+# 2.3.3.2 Переменная окружения
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/baefe4d0-7fae-45a2-a8a3-edba37f6c3c5" />
+# 2.3.4 Проверил: echo $MY_VAR. Выйдите из fish.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/906f7b7f-1f30-4bed-ba0e-370ab1f24e36" />
+# 2.3.5 Отчёт
+В Bash и Zsh алиас создаётся с помощью команды alias, например alias ll='ls -la'. В fish используется другой синтаксис- alias ll 'ls -la'. Переменные окружения также задаются по-разному: в Bash/Zsh используется export MY_VAR="...", а в fish-set -x MY_VAR "...".
+# 2.4 Объединение команд и конвейеры
+# 2.4.1 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20e4f78b-015e-48ce-b808-53f253d42674" />
+# 2.4.2 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6492a459-505b-4ce1-9ddc-247405eca1ad" />
+# 2.4.3 Сымитируйте ошибку: rm notexist.txt || echo "File not found"
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/044ad613-93ed-4f55-8427-8c53abe8b654" />
+# 2.4.4 конвейер из трёх команд
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d03fdf70-917b-4ccf-92d1-1a2027f1fe88" />
+# 2.4.5 Количество процеессов
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcef7b9e-5217-4f14-871a-f3c1666d5c88" />
+# 2.5 
+# 2.5.1
