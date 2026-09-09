@@ -18,20 +18,20 @@
 # 2.3.1 Запустил оболочку sh (sh). Выполнил echo $SHELL. 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29fcaa99-97d8-42ee-a5bf-7fed06452831" />
 # 2.3.2 Запустил zsh. Выполнил echo $SHELL
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a82ce5c5-a4d6-40ed-a5fa-f9cbeccdc5a0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b3fe0477-4438-4217-a37b-2d8f9fe46448" />
 # 2.3.2.1 Создал временный алиас ll='ls -la' и проверил его. 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b366545e-b19a-48ca-9abf-cb61789fa04f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0556fc67-7619-4224-b527-db90f86a9dac" />
 # 2.3.2.2 Создал переменную окружения export MY_VAR="hello from zsh". 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2716ea34-5b0b-428b-a586-c55c2cb87f84" />
+
 # 2.3.2.3 Запускаем Bash из Zsh
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a40a504-7622-4872-a874-e17a13d94466" />
+
 # 2.3.3 fish
 # 2.3.3.1 alias в fish
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/21b76dab-222b-42bf-9135-b7ed84ba6d64" />
+
 # 2.3.3.2 Переменная окружения
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/baefe4d0-7fae-45a2-a8a3-edba37f6c3c5" />
+
 # 2.3.4 Проверил: echo $MY_VAR. Выйдите из fish.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/906f7b7f-1f30-4bed-ba0e-370ab1f24e36" />
+
 # 2.3.5 Отчёт
 В Bash и Zsh алиас создаётся с помощью команды alias, например alias ll='ls -la'. В fish используется другой синтаксис- alias ll 'ls -la'. Переменные окружения также задаются по-разному: в Bash/Zsh используется export MY_VAR="...", а в fish-set -x MY_VAR "...".
 # 2.4 Объединение команд и конвейеры
@@ -47,3 +47,6 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcef7b9e-5217-4f14-871a-f3c1666d5c88" />
 # 2.5 Создание временных алиасов 
 # 2.5.1 В текущей сессии bash создайте алиас lll='ls -l | grep "^d"'.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e5ec9a1-281b-498c-9eb3-23aba3c5b7f6" />
+# 2.5.2 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15a08a34-bdb8-4d79-8563-c41303bcfec3" />
