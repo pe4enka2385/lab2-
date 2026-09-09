@@ -45,5 +45,5 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d03fdf70-917b-4ccf-92d1-1a2027f1fe88" />
 # 2.4.5 Количество процеессов
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcef7b9e-5217-4f14-871a-f3c1666d5c88" />
-# 2.5 
-# 2.5.1
+# 2.5 Создание временных алиасов 
+# 2.5.1 В текущей сессии bash создайте алиас lll='ls -l | grep "^d"'.
