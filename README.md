@@ -1,6 +1,6 @@
 # lab2-
 # 2.1  Подготовка 
-![src] (https://github.com/user-attachments/assets/a2b8d91c-8038-4180-b205-dc1132274437" )
+![src] (https://github.com/user-attachments/assets/a2b8d91c-8038-4180-b205-dc1132274437)
 # 2.2 Перенаправление потоков ввода/вывода
 # 2.2.1 Создание data.txt
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9563d6ba-5bc2-491c-9443-05effdc5661c" />
