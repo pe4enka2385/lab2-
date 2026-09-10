@@ -68,16 +68,51 @@
 # fish
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/246648ed-1ba6-4ba9-ad35-77a3023ba52c" />
 # 2.7 Временные переменные окружения
-# 2.7.1
+# 2.7.1 В bash создайте локальную переменную TEMP_VAR="temporary". 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b36abd55-6387-4bb5-902c-84515bca9740" />
-# 2.7.2
+# 2.7.2 Выполните echo $TEMP_VAR.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36663de0-fe25-475c-ac07-e6934086a7d3" />
-# 2.7.3
+# 2.7.3 Запустите bash (дочерняя оболочка) и попробуйте вывести echo $TEMP_VAR. 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68ca7118-6a76-4946-a8e0-fb00cee4b63c" />
 Ничего не происходит потому что я зашёл в ещё один bash в нутри bash и тут ничего нет
-# 2.7.4
+# 2.7.4 Выйдите из дочерней оболочки (exit). Создайте экспортируемую переменную: 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/893fe2be-6a61-4cf8-9cd4-c7c441a42cbf" />
-# 2.7.5
+# 2.7.5 Запустите bash и проверьте echo $GLOBAL_VAR.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e8afe2aa-f2c9-4d2b-a1fd-03757c99ed27" />
 # 2.7.6 Удалил переменную: unset GLOBAL_VAR.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7257a642-df30-4e22-ba72-88679f0e7ed9" />
+# 2.8 Постоянные переменные окружения
+# 2.8.1 Добавьте в ~/.bashrc строку
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6936c80a-0f35-4a2d-8fbc-2e31f170c3f6" />
+# 2.8.2 Выполните source ~/.bashrc. 
+# 2.8.3 Проверьте: echo $EDITOR. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71f8af46-3844-48c6-a92f-1a8ee22df48c" />
+# 2.8.4 Добавьте также export WORKSPACE="$HOME/lab2". 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea97a054-c96c-454c-bf6c-8120c8cb405b" />
+# 2.8.5 Проверьте, что после перезапуска терминала эти переменные остаются. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7c61594-1114-4fc2-a56a-13dc4b3a7418" />
+# 2.9 Комплексный скрипт (закрепление) 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07749757-94fc-4ec3-9a18-36a0de1241ca" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf1eb01b-5a9e-4b08-863c-a97be3c8ea9f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3b181e0-c443-4930-9e54-bacfafbfb385" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ec090bfe-11bd-4a9c-9f57-1e0a2c2a50a4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1aa12bab-accd-4fb8-a4d6-2eef1b8d9b14" />
+# 4 Контрольные вопросы
+# 4.1 Чем отличается перенаправление > от >>? Приведите пример.
+> перезаписывает файл, >> дописывает в конец (пример: echo "Hi" > f.txt, затем echo "Bye" >> f.txt)
+# 4.2  В чём разница между команда1 ; команда2 и команда1 && команда2? 
+команда1 ; команда2 — выполняются подряд вне зависимости от успеха; команда1 && команда2 — вторая только при успехе первой (пример: mkdir d && cd d).
+# 4.3  Как объединить стандартные потоки stdout и stderr в один файл?
+Объединить stdout и stderr: cmd > file 2>&1 или cmd &> file.
+# 4.4 Что такое алиас? Как сделать его постоянным в bash, zsh, fish? 
+Алиас — псевдоним команды; в bash/zsh добавляют в ~/.bashrc/~/.zshrc, в fish — в ~/.config/fish/config.fish.
+# 4.5  Зачем нужно export перед переменной? Как сделать переменную окружения постоянной? 
+export делает переменную видимой для дочерних процессов; для постоянства прописывают export VAR=val в конфиг оболочки.
+# 4.6 Какая команда позволяет посмотреть все текущие переменные окружения? 
+Посмотреть переменные окружения: env или printenv.
+# 4.7 Как передать вывод одной команды на ввод другой? Приведите пример. 
+Передать вывод одной команды на ввод другой — через конвейер | (пример: ls | grep txt).
+# 4.8 Назовите основные отличия fish от bash в синтаксисе алиасов и переменных (по наблюдениям). 
+В fish синтаксис алиасов и переменных отличается: алиасы часто задают через функции, переменные — командой set -x.
+# 4.9  Как в одном процессе перенаправить stdin из файла и одновременно stdout в другой файл?
+Перенаправить stdin из файла и stdout в другой файл в одном процессе: cmd < in.txt > out.txt
