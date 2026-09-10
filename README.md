@@ -22,16 +22,17 @@
 # 2.3.2.1 Создал временный алиас ll='ls -la' и проверил его. 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0556fc67-7619-4224-b527-db90f86a9dac" />
 # 2.3.2.2 Создал переменную окружения export MY_VAR="hello from zsh". 
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0649697d-a4c0-481d-b145-4a1625858272" />
 # 2.3.2.3 Запускаем Bash из Zsh
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a934ec0-5dd5-4d98-8953-8ffd1ea987d4" />
 # 2.3.3 fish
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7ef63d4-a937-446b-8d63-fc40a5cc4ba1" />
 # 2.3.3.1 alias в fish
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a0e7d119-fe94-4e25-89e0-ae6bcf7e3c3b" />
 # 2.3.3.2 Переменная окружения
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/96580fa4-d98d-4bdc-b51e-fe681ea801b4" />
 # 2.3.4 Проверил: echo $MY_VAR. Выйдите из fish.
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5912ffd2-5853-47e1-bd17-f2072a55ca05" />
 # 2.3.5 Отчёт
 В Bash и Zsh алиас создаётся с помощью команды alias, например alias ll='ls -la'. В fish используется другой синтаксис- alias ll 'ls -la'. Переменные окружения также задаются по-разному: в Bash/Zsh используется export MY_VAR="...", а в fish-set -x MY_VAR "...".
 # 2.4 Объединение команд и конвейеры
@@ -47,6 +48,31 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcef7b9e-5217-4f14-871a-f3c1666d5c88" />
 # 2.5 Создание временных алиасов 
 # 2.5.1 В текущей сессии bash создайте алиас lll='ls -l | grep "^d"'.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e5ec9a1-281b-498c-9eb3-23aba3c5b7f6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e7e7c3cc-8d43-41e0-998b-727ed51c929a" />
 # 2.5.2 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15a08a34-bdb8-4d79-8563-c41303bcfec3" />
+# 2.5.3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49d7445a-5fc7-4a72-8245-b4b0e617814f" />
+# 2.5.4
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecaf2f67-82fc-494b-9313-e5dfe0bef0c1" />
+# 2.6 Создание постоянных алиасов
+# 2.6.1 Отредактируйте файл ~/.bashrc. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1797eb88-da2d-470b-a950-9c6163cfb8c2" />
+# 2.6.2 Примените изменения: source ~/.bashrc.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff585538-a938-478c-85f7-c21a5ea2d975" />
+# 2.6.3 Проверьте работу алиасов: up (можно отменить Ctrl+C), myip. 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bc804c6-350a-43bf-83cb-c2f433db5530" />
+# 2.6.4 
+# zsh
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c779991b-ea17-4bca-bb1c-b1f3e4dd1dfe" />
+# fish
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/246648ed-1ba6-4ba9-ad35-77a3023ba52c" />
+# 2.7 Временные переменные окружения
+# 2.7.1
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b36abd55-6387-4bb5-902c-84515bca9740" />
+# 2.7.2
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36663de0-fe25-475c-ac07-e6934086a7d3" />
+# 2.7.3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68ca7118-6a76-4946-a8e0-fb00cee4b63c" />
+Ничего не происходит потому что я зашёл в ещё один bash в нутри bash и тут ничего нет
+# 2.7.4
