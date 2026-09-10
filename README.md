@@ -76,3 +76,8 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68ca7118-6a76-4946-a8e0-fb00cee4b63c" />
 Ничего не происходит потому что я зашёл в ещё один bash в нутри bash и тут ничего нет
 # 2.7.4
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/893fe2be-6a61-4cf8-9cd4-c7c441a42cbf" />
+# 2.7.5
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e8afe2aa-f2c9-4d2b-a1fd-03757c99ed27" />
+# 2.7.6 Удалил переменную: unset GLOBAL_VAR.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7257a642-df30-4e22-ba72-88679f0e7ed9" />
